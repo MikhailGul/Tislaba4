@@ -1,7 +1,7 @@
-let num =1234560
-let str=String(num);
-if (str[str.length]=0){
-    console.log('+++')
-}else{
-    console.log('---')
+let number = 12340;
+
+if (number % 10 === 0) {
+  console.log("Последняя цифра равна нулю.");
+} else {
+  console.log("Последняя цифра не равна нулю.");
 }
